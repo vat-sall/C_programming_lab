@@ -3,7 +3,7 @@
 void main()
 {
     int num,rem,sum=0;
-    printf("Enter the number :- ");
+    printf("Enter the number : ");
     scanf("%d",&num);
     while(num)
     {
@@ -11,6 +11,6 @@ void main()
         sum = sum + rem;
         num/=10;
     }
-    printf("Sum of digits are :- %d ",sum);
+    printf("Sum of digits are : %d ",sum);
     
 }
