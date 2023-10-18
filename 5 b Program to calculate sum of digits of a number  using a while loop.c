@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+void main()
 {
     int num,rem,sum=0;
     printf("Enter the number :- ");
@@ -12,5 +12,5 @@ int main()
         num/=10;
     }
     printf("Sum of digits are :- %d ",sum);
-    return 0;
+    
 }
